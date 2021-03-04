@@ -1,0 +1,8 @@
+(do
+    (read a)
+    (read b)
+    (while (<> a b)
+        (cond (> a b) (= a (- a b)) (else (= b (- b a))))
+    )
+    (print a)
+)
